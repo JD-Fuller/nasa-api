@@ -2,19 +2,43 @@
   <div class="home container-fluid">
     <div class="row">
       <div class="col">
-        <img alt="Vue logo" src="../assets/logo.png" />
+        <h1>
+          NASA Search
+          <img alt="Vue logo" src="../assets/logo.png" />
+        </h1>
       </div>
     </div>
     <div class="row">
-      <div class="col">DAYS</div>
-      <div class="col">Mars Pic</div>
+      <div class="col">
+        <search-nasa-api />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <setActivePhoto />
+      </div>
+      <div class="col-10"><photos /></div>
     </div>
   </div>
 </template>
 
 <script>
+import SearchNasaApi from "@/components/Search";
+import SetActivePhoto from "@/components/Results";
+import Photos from "@/components/Photos";
+
 export default {
   name: "home",
-  components: {}
+  components: {
+    SearchNasaApi,
+    SetActivePhoto,
+    Photos
+  }
 };
 </script>
+
+<style>
+h1 img {
+  height: 1.5rem;
+}
+</style>
