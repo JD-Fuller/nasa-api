@@ -26,14 +26,15 @@
 import SearchNasaApi from "@/components/Search";
 import SetActivePhoto from "@/components/Results";
 import Photos from "@/components/Photos";
+import VueResponsiveImage from "vue-responsive-image";
 
 export default {
   name: "home",
   components: {
     SearchNasaApi,
     SetActivePhoto,
-    Photos
-  }
+    Photos,
+  },
 };
 </script>
 

@@ -5,10 +5,10 @@
         Mars Photo
       </h3>
       <img
-        class="photo-mars"
-        height="40%"
+        id="sticky"
         :src="this.$store.state.activePhoto.img_src"
         alt="mars photo"
+        class="responsive"
       />
     </div>
   </section>
@@ -20,14 +20,28 @@ export default {
   computed: {
     photos() {
       return this.$store.state.activePhoto;
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style>
 .search {
   background-color: rgb(145, 245, 220);
+}
+/* .responsive {
+  width: 100%;
+  height: auto;
+} */
+#sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 6px #000;
 }
 /* section {
   /* height: 100vh;
