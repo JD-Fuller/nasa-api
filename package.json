@@ -7,9 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^9.8.5",
     "axios": "^0.19.2",
+    "bootstrap-vue": "^2.16.0",
     "colorette": "^1.2.1",
+    "jquery": "^3.5.1",
+    "vee-validate": "^3.3.7",
     "vue": "^2.6.11",
     "vue-position-sticky": "^0.2.1",
     "vue-router": "^3.3.4",
