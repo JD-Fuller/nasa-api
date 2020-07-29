@@ -4,12 +4,14 @@
       <h3>
         Mars Photo
       </h3>
+      <picture>
       <img
-        id="sticky"
         :src="this.$store.state.activePhoto.img_src"
         alt="mars photo"
-        class="responsive"
+        class="responsive" 
+        position="fixed"
       />
+      </picture>
     </div>
   </section>
 </template>
@@ -33,14 +35,12 @@ export default {
   width: 100%;
   height: auto;
 } */
-#sticky {
+.responsive {
+  width: auto;
+  max-height: 80vh;
   position: sticky;
-  position: -webkit-sticky;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-content: flex-start;
+
   box-shadow: 0 0 6px #000;
 }
 /* section {

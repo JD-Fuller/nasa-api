@@ -11,6 +11,7 @@
     "axios": "^0.19.2",
     "colorette": "^1.2.1",
     "vue": "^2.6.11",
+    "vue-position-sticky": "^0.2.1",
     "vue-router": "^3.3.4",
     "vuex": "^3.5.1"
   },

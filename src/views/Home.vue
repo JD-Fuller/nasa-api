@@ -17,7 +17,9 @@
       <div class="col-2">
         <setActivePhoto />
       </div>
-      <div class="col-10"><photos /></div>
+      <div class="col-10">
+        <photos />
+        </div>
     </div>
   </div>
 </template>
@@ -27,6 +29,7 @@ import SearchNasaApi from "@/components/Search";
 import SetActivePhoto from "@/components/Results";
 import Photos from "@/components/Photos";
 import VueResponsiveImage from "vue-responsive-image";
+import vuePositionSticky from 'vue-position-sticky';
 
 export default {
   name: "home",
