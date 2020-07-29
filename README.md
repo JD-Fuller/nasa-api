@@ -1,4 +1,4 @@
-NASA Api Getter! 
+# NASA Api Project - Mars Rover
 
 This app is designed to grab Mars Rover images based on input date. 
 
