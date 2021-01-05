@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap-vue": "^2.16.0",
     "colorette": "^1.2.1",
     "jquery": "^3.5.1",
